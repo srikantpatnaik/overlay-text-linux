@@ -5,16 +5,17 @@
 # To select fonts use 'xfontsel -print'
 
 font='-adobe-helvetica-bold-r-normal--34-240-100-100-p-182-iso8859-1'
-align='center' #left, right, center
+align='left' #left, right, center
 delay='1200' # 20 minutes
-color='blue'
-shadow='2'
+color='brown'
+shadow='1'
 t_position='top' #top, middle, bottom
 t_offset='40' # vertical offset
-t_indent='20' # horizontal offset
+t_indent='140' # horizontal offset
 b_position='bottom' #top, middle, bottom
-b_offset='-50'
-b_indent='20'
+b_offset='-50' # vertical offset
+b_indent='140' # horizontal offset
+
 
 if [ "$1" == '-t' ]
 then
